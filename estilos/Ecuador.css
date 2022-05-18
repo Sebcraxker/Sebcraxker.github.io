@@ -1,0 +1,180 @@
+html{
+    background: url(https://www.caracteristicas.co/wp-content/uploads/2018/12/ecuador-5-e1585512462507.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(81, 78, 255);
+    min-height: 100%;
+    align-items: center;
+    font-family: Arial black;
+    border-style: ridge;
+    border-color: black;
+    font-size: 20px;
+}
+
+.contorno{
+    background-color: rgb(234, 238, 29);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    margin: auto;
+    font-family: Arial black;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(24, 163, 255, 0.705);
+    /* somb-x | somb-y | desenf-radio | color */
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    text-align: center;
+}
+
+.contornoC{
+    background-color: rgb(252, 255, 81);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    margin: auto;
+    font-family: Arial black;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(243, 26, 26, 0.705);
+    /* somb-x | somb-y | desenf-radio | color */
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    text-align: center;
+    width: 300px;
+}
+
+.contornoP1{
+    background-color: rgb(255, 101, 101);
+    border-style: ridge;
+    border-color: rgb(8, 8, 8);
+    margin: auto;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.705);
+    text-align: center;
+    width: 1300px;
+    text-align: justify;
+    text-align: center;
+}
+
+.imagenecuador img{
+    width: 400px;
+    height: 70;
+    display: block;
+    margin: 80%;
+    margin-bottom: 50px;
+    margin-left: 35%; /*Centrado*/
+    border-radius: 10px; /*Redonceado las esquinas*/
+    border: solid;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.imgGastronomiaEc{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgMusicaEC{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgArteEC{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgDeporteEC{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgCostumbresEC{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+
+.img{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+
+img:hover{
+    opacity: .5;
+    transition: .1s;
+}
+
+footer img{
+    width: 30px;
+}
+
+footer{
+    text-decoration: solid;
+    margin-left: auto;
+    background-color: rgba(63, 235, 177, 0.288);
+}
+
+section{
+    background-color: rgb(66, 126, 255);
+    width: 97%;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: justify;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+}
+
+nav a{
+    font-weight: 10px;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+
+/*Pseudoelemento (::) */
+
+
+nav a:hover{
+    color: rgb(226, 255, 64);
+}
+
+/* Pseudocodigo (@...) */
+@media (max-width:400px){
+    header{
+        flex-direction: column;
+    }
+}

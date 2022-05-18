@@ -1,0 +1,173 @@
+html{
+    background: url(https://www.caracteristicas.co/wp-content/uploads/2018/09/argentina-2-e1579213115227.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 249, 255);
+    min-height: 100%;
+    align-items: center;
+    font-family: Arial black;
+    border-style: ridge;
+    border-color: black;
+    font-size: 20px;
+}
+
+.contorno{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    margin: auto;
+    font-family: Arial black;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0, 255, 255, 0.705);
+    /* somb-x | somb-y | desenf-radio | color */
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    text-align: center;
+    margin: center;
+}
+
+.contornoC{
+    background-color: rgb(81, 235, 255);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    margin: auto;
+    font-family: Arial black;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.705);
+    /* somb-x | somb-y | desenf-radio | color */
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    text-align: center;
+    width: 300px;
+}
+
+.contornoP1{
+    background-color: rgb(172, 242, 255);
+    border-style: ridge;
+    border-color: rgb(8, 8, 8);
+    margin: auto;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.705);
+    text-align: center;
+    width: 1300px;
+    text-align: justify;
+    text-align: center;
+}
+
+.imagen15 img{
+    width: 400px;
+    height: 70;
+    display: block;
+    margin: 80%;
+    margin-bottom: 50px;
+    margin-left: 35%; /*Centrado*/
+    border-radius: 10px; /*Redonceado las esquinas*/
+    border: solid;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.imgLiteraturaAR{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgMusicaAR{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgArteAR{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+.imgDeporteAR{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+
+.img{
+    width: 400px;
+    height: 80;
+    display: block;
+    margin: auto; 
+    padding: 10px 20px 20px;
+}
+
+
+img:hover{
+    opacity: .5;
+    transition: .1s;
+}
+
+section{
+    background-color: rgb(229, 243, 106);
+    width: 97%;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: justify;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a{
+    font-weight: 10px;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+
+/*Pseudoelemento (::) */
+
+footer img{
+    width: 30px;
+}
+
+footer{
+    text-decoration: solid;
+    margin-left: auto;
+    background-color: rgba(63, 235, 177, 0.288);
+    text-align: justify;
+}
+
+nav a:hover{
+    color: rgb(226, 255, 64);
+}
+
+/* Pseudocodigo (@...) */
+@media (max-width:400px){
+    header{
+        flex-direction: column;
+    }
+}
